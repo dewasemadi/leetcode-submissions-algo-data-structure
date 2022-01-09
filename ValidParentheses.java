@@ -52,7 +52,7 @@ public class ValidParentheses {
  * jika saat iterasi ketemu karakter ), }, atau ] tinggal cek dictionary dengan
  * dict.get(stack.top) == temp
  * 
- * dict.get(stack.top) akan mereturn value dari stack.top, misal:
+ * dict.get(stack.top) akan mereturn value dari key stack.top, misal:
  * stack.top = [
  * maka, dict.get('[') = ']'
  * 
