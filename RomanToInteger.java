@@ -1,10 +1,8 @@
 import java.util.HashMap;
-import java.util.Stack;
 
 class Solution {
     public int romanToInt(String str) {
         int num = 0;
-        Stack<Character> stack = new Stack<>();
         HashMap<Character, Integer> dict = new HashMap<>();
         dict.put('I', 1);
         dict.put('V', 5);
