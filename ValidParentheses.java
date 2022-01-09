@@ -49,11 +49,13 @@ public class ValidParentheses {
  * 
  * pake struktur data stack buat nampung karakter (, {, sama [
  * struktur data map buat dictionary (pair key : value dari setiap bracket)
- * jika saat iterasi ketemu karakter ), }, atau ] tinggal cek dictionary dengan
+ * 
+ * jika saat iterasi ketemu karakter ), }, atau ] (msl. karakter tsb ditampung
+ * pada variable temp) tinggal cek dictionary dengan
  * dict.get(stack.top) == temp
  * 
  * dict.get(stack.top) akan mereturn value dari key stack.top, misal:
- * stack.top = [
- * maka, dict.get('[') = ']'
+ * (key) stack.top = [
+ * maka, (value) dict.get('[') = ']'
  * 
  */
