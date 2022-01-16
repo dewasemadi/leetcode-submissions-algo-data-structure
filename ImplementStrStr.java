@@ -18,3 +18,5 @@ public class ImplementStrStr {
         System.out.println(solution.strStr("hello", "ll"));
     }
 }
+
+// problem: https://leetcode.com/problems/implement-strstr/
